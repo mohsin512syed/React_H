@@ -8,7 +8,8 @@ import './App.css'
 // import CallBack from './components/callBack'
 // import ShopingCardS from './components/ShopingCardS'
 // import  Reducer1  from './components/Reducer1'
-import Memo from './components/useMemo/memo'
+// import Memo from './components/useMemo/memo'
+import Home from './components/CallBack/Home'
 
 function App() {
 
@@ -23,7 +24,8 @@ function App() {
       {/* <BioProvider>
         <Home />
       </BioProvider> */}
-      <Memo />
+      {/* <Memo /> */}
+      <Home/>
     </>
   )
 }

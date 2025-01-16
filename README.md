@@ -11,4 +11,5 @@ const memorizedValue = useMemo(()=>{
 },[dependencies])
 .useMemo is a React Hook used for memorization ,
 .Memorization is a technique to optimize performance by caching the results of expensice function calls,
-.Use it when you wan to prevent unnecessory re-execution of a function on wvwey render
+.Use it when you wan to prevent unnecessory re-execution of a function on every render
+.useCallback is a react hook use for function memorization=> during the component render create a instance the useCall back hook memorized the instance and avoiding unnecessory re-execution
