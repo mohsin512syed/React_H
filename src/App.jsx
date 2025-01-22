@@ -9,7 +9,10 @@ import './App.css'
 // import ShopingCardS from './components/ShopingCardS'
 // import  Reducer1  from './components/Reducer1'
 // import Memo from './components/useMemo/memo'
-import Home from './components/CallBack/Home'
+// import Home from './components/CallBack/Home'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -25,7 +28,13 @@ function App() {
         <Home />
       </BioProvider> */}
       {/* <Memo /> */}
-      <Home/>
+      {/* <Home/> */}
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<About/>} />
+          <Route path='/contact' element={<Contact/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
