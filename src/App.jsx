@@ -10,9 +10,10 @@ import './App.css'
 // import  Reducer1  from './components/Reducer1'
 // import Memo from './components/useMemo/memo'
 // import Home from './components/CallBack/Home'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import About from './components/About'
-import Contact from './components/Contact'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import About from './components/About'
+// import Contact from './components/Contact'
+import Index from './components/UseRef'
 
 function App() {
 
@@ -29,12 +30,13 @@ function App() {
       </BioProvider> */}
       {/* <Memo /> */}
       {/* <Home/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<About/>} />
           <Route path='/contact' element={<Contact/>} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Index />
     </>
   )
 }

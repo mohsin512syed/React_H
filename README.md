@@ -13,3 +13,6 @@ const memorizedValue = useMemo(()=>{
 .Memorization is a technique to optimize performance by caching the results of expensice function calls,
 .Use it when you wan to prevent unnecessory re-execution of a function on every render
 .useCallback is a react hook use for function memorization=> during the component render create a instance the useCall back hook memorized the instance and avoiding unnecessory re-execution
+.Controlled and Uncrotrolled components => controlled components consist of three parts event handler  , state update and state management or other side the uncontrolled components managed with the help of dom ,
+.UseRef is sa react hook that lets your ref and dont need to the component rendering , 
+.UseRef function component ma mutale reference bnany ka lye istmal hota hai , 
