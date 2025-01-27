@@ -13,7 +13,7 @@ import './App.css'
 // import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // import About from './components/About'
 // import Contact from './components/Contact'
-import Index from './components/UseRef'
+// import Index from './components/UseRef'
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
           <Route path='/contact' element={<Contact/>} />
         </Routes>
       </BrowserRouter> */}
-      <Index />
+      {/* <Index /> */}
     </>
   )
 }
