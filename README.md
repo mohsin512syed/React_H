@@ -1,18 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1.useState is a React Hook that lets you add a state variable to your component. const [state, setState] = useState(initialState) useState(initialState) set functions, like setSomething(nextState).
 
-Currently, two official plugins are available:
+2.In React, useEffect is a hook that allows you to perform side effects in functional components. Side effects can include things like data fetching, subscriptions, DOM manipulations, timers, or logging.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-const memorizedValue = useMemo(()=>{
-    return computedValue
-},[dependencies])
-.useMemo is a React Hook used for memorization ,
-.Memorization is a technique to optimize performance by caching the results of expensice function calls,
-.Use it when you wan to prevent unnecessory re-execution of a function on every render
-.useCallback is a react hook use for function memorization=> during the component render create a instance the useCall back hook memorized the instance and avoiding unnecessory re-execution
-.Controlled and Uncrotrolled components => controlled components consist of three parts event handler  , state update and state management or other side the uncontrolled components managed with the help of dom ,
-.UseRef is sa react hook that lets your ref and dont need to the component rendering , 
-.UseRef function component ma mutale reference bnany ka lye istmal hota hai , 
+3.useMemo is a React Hook used for memorization ,
+Memorization is a technique to optimize performance by caching the results of expensice function calls,
+Use it when you wan to prevent unnecessory re-execution of a function on every render.
+
+4.useCallback is a react hook use for function memorization=> during the component render create a instance the useCall back hook memorized the instance and avoiding unnecessory re-execution
+
+5.UseRef is sa react hook that lets your ref and dont need to the component rendering 
+UseRef function component ma mutale reference bnany ka lye istmal hota hai .
+
+6.Context API in React is used to share data across the components without passing the props manually through every level. It allows to create global state of data providing global access to all the components.
+
+7.In React, useReducer is a hook used for state management, especially when the state logic is complex or when managing multiple state values. It is an alternative to useState but is designed for more advanced scenarios.
