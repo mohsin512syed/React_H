@@ -10,7 +10,7 @@ Use it when you wan to prevent unnecessory re-execution of a function on every r
 4.useCallback is a react hook use for function memorization=> during the component render create a instance the useCall back hook memorized the instance and avoiding unnecessory re-execution
 
 5.UseRef is sa react hook that lets your ref and dont need to the component rendering 
-UseRef function component ma mutale reference bnany ka lye istmal hota hai .
+UseRef function component ma mutable reference bnany ka lye istmal hota hai .
 
 6.Context API in React is used to share data across the components without passing the props manually through every level. It allows to create global state of data providing global access to all the components.
 
